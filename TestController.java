@@ -9,6 +9,7 @@ public class TestController
 		///Avinashdhobe
 	
 	@RequestMapping("/api")
+//api
 	public void msg() throws CustomException
 	{
 		throw new CustomException();
